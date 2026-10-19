@@ -1,0 +1,21 @@
+# Core PDF extraction and tokenization
+pymupdf>=1.24.0
+tiktoken>=0.7.0
+
+# Local embeddings and vector search
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+
+# LLM framework and OpenAI API integration
+openai>=1.20.0
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+
+# Environment management and utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Testing
+pytest>=8.0.0

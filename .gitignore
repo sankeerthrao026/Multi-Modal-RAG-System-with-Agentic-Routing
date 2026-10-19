@@ -1,0 +1,42 @@
+# Environment & Secrets
+.env
+*.env
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Data & PDFs
+data/
+*.pdf
+
+# Indexes and Vector DBs
+indexes/
+chroma_db/
+faiss_index/
+*.index
+
+# Model Weights
+*.pt
+*.bin
+*.safetensors
+
+# Python Cache & Builds
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# Experiment Tracking & Logs
+mlruns/
+*.log
+
+# Audit Reports
+audit_reports/
+
+# OS Specific
+.DS_Store
+Thumbs.db
